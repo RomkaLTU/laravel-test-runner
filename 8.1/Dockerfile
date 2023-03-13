@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 LABEL maintainer="Romualdas Daskevicius <hello@codesomelabs.com>"
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV GOSS_VERSION="0.3.16"
+ENV GOSS_VERSION="0.3.21"
 
 RUN apt-get update && apt-get install -y software-properties-common curl
 RUN add-apt-repository ppa:ondrej/php -y
